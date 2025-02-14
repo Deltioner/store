@@ -4,7 +4,7 @@ import { BsSearch } from 'react-icons/bs'
 import { BiHeart } from 'react-icons/bi'
 import { HiOutlineShoppingCart } from "react-icons/hi2";
 
-const Navbar = () => {
+const HeaderTop = () => {
   return (
     <div className='border-b border-gray-200 py-6'>
         <div className='container sm:flex justify-between items-center'>
@@ -44,4 +44,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default HeaderTop
